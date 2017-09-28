@@ -30,9 +30,15 @@ RUN wget -O /tmp/get-pip.py "https://bootstrap.pypa.io/get-pip.py" \
   && python /tmp/get-pip.py \
   && rm /tmp/get-pip.py \
   && pip install Sphinx \
+    pyyaml \
+    Pillow \
     alabaster \
     sphinx_bootstrap_theme \
     sphinx_rtd_theme \
+    t3SphinxThemeRtd \
+    t3fieldlisttable \
+    t3tablerows \
+    t3targets \
     recommonmark \
     sphinx-autobuild \
     sphinx-prompt \
