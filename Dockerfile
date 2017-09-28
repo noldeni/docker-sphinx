@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:16.04
 MAINTAINER Jeremy Nicklas <jeremywnicklas@gmail.com>
 
 # Set up requirements
