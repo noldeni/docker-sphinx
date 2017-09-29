@@ -8,6 +8,8 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     graphviz \
     python \
     ghostscript \
+	  pandoc\
+	  pandoc-citeproc\
     texlive \
     texlive-fonts-recommended \
     texlive-font-utils \
