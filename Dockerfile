@@ -4,12 +4,13 @@ MAINTAINER Jeremy Nicklas <jeremywnicklas@gmail.com>
 # Set up requirements
 RUN export DEBIAN_FRONTEND=noninteractive \
   && apt-get update && apt-get install --yes --no-install-recommends \
+    apt-utils \
     default-jre \
     graphviz \
     python \
     ghostscript \
-	  pandoc\
-	  pandoc-citeproc\
+    pandoc\
+    pandoc-citeproc\
     texlive \
     texlive-fonts-recommended \
     texlive-font-utils \
