@@ -3,7 +3,7 @@ MAINTAINER Jeremy Nicklas <jeremywnicklas@gmail.com>
 
 # Install missing apt-utils first to avoid warnings
 RUN export DEBIAN_FRONTEND=noninteractive \
-  && apt-get update && apt-get install -yes --no-install-recommends \
+  && apt-get update && apt-get install --yes --no-install-recommends \
     apt-utils
 # Set up requirements
 RUN export DEBIAN_FRONTEND=noninteractive \
