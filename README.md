@@ -9,6 +9,7 @@ This image contains:
   - [Alabaster](http://alabaster.readthedocs.io/en/latest/)
   - [Sphinx Bootstrap Theme](http://ryan-roemer.github.io/sphinx-bootstrap-theme/README.html)
   - [sphinx_rtd_theme](https://github.com/rtfd/sphinx_rtd_theme)
+  - [t3SphinxThemeRtd](https://github.com/TYPO3-Documentation/t3SphinxThemeRtd)
 - A markdown parser for reStructuredText ([recommonmark](https://github.com/rtfd/recommonmark))
 - A sphinx watcher tool ([sphinx-autobuild](https://github.com/rtfd/recommonmark))
 - A variety of plugins:
@@ -24,6 +25,11 @@ This image contains:
   - [sphinxcontrib-googlemaps](https://pypi.python.org/pypi/sphinxcontrib-googlemaps)
   - [sphinxcontrib-libreoffice](https://pypi.python.org/pypi/sphinxcontrib-libreoffice)
   - [sphinxcontrib-httpdomain](https://pypi.python.org/pypi/sphinxcontrib-httpdomain)
+  - [pyyaml](https://github.com/yaml/pyyaml)
+  - [Pillow](https://python-pillow.org/)
+  - [t3fieldlisttable](https://github.com/TYPO3-Documentation/sphinxcontrib.t3fieldlisttable)
+  - [t3tablerows](https://github.com/TYPO3-Documentation/sphinxcontrib.t3tablerows)
+  - [t3targets](https://github.com/TYPO3-Documentation/sphinxcontrib.t3targets)
 - Latex to generate PDF documents
 
 ## Build
