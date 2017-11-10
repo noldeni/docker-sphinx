@@ -26,6 +26,7 @@ This image contains:
   - [sphinxcontrib-googlemaps](https://pypi.python.org/pypi/sphinxcontrib-googlemaps)
   - [sphinxcontrib-libreoffice](https://pypi.python.org/pypi/sphinxcontrib-libreoffice)
   - [sphinxcontrib-httpdomain](https://pypi.python.org/pypi/sphinxcontrib-httpdomain)
+  - [sphinxcontrib-fulltoc](http://sphinxcontrib-fulltoc.readthedocs.org/)
   - [pyyaml](https://github.com/yaml/pyyaml)
   - [Pillow](https://python-pillow.org/)
   - [t3fieldlisttable](https://github.com/TYPO3-Documentation/sphinxcontrib.t3fieldlisttable)
