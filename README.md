@@ -9,6 +9,7 @@ This image contains:
   - [Alabaster](http://alabaster.readthedocs.io/en/latest/)
   - [Sphinx Bootstrap Theme](http://ryan-roemer.github.io/sphinx-bootstrap-theme/README.html)
   - [sphinx_rtd_theme](https://github.com/rtfd/sphinx_rtd_theme)
+  - [cloud_sptheme](https://cloud-sptheme.readthedocs.io/)
   - [t3SphinxThemeRtd](https://github.com/TYPO3-Documentation/t3SphinxThemeRtd)
 - A markdown parser for reStructuredText ([recommonmark](https://github.com/rtfd/recommonmark))
 - A sphinx watcher tool ([sphinx-autobuild](https://github.com/rtfd/recommonmark))

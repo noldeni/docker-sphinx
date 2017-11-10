@@ -41,6 +41,7 @@ RUN wget -O /tmp/get-pip.py "https://bootstrap.pypa.io/get-pip.py" \
     alabaster \
     sphinx_bootstrap_theme \
     sphinx_rtd_theme \
+    cloud_sptheme \
     t3SphinxThemeRtd \
     t3fieldlisttable \
     t3tablerows \
