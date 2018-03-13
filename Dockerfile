@@ -22,12 +22,17 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     texlive-latex-recommended \
     build-essential \
     wget \
+    git \
   && apt-get autoremove -y \
   && rm -fr /var/cache/* \
   && rm -fr /var/lib/apt/lists/*
 
+# Install PlantUML (old)
+#RUN wget -O /opt/plantuml.jar "https://sourceforge.net/projects/plantuml/files/plantuml.jar" --no-check-certificate \
+#  && printf '#!/bin/sh -e\njava -jar /opt/plantuml.jar "$@"' > /usr/local/bin/plantuml \
+#  && chmod 755 /usr/local/bin/plantuml
 # Install PlantUML
-RUN wget -O /opt/plantuml.jar "https://sourceforge.net/projects/plantuml/files/plantuml.jar" --no-check-certificate \
+RUN wget -O /opt/plantuml.jar "http://sourceforge.net/projects/plantuml/files/plantuml.1.2018.2.jar/download" --no-check-certificate \
   && printf '#!/bin/sh -e\njava -jar /opt/plantuml.jar "$@"' > /usr/local/bin/plantuml \
   && chmod 755 /usr/local/bin/plantuml
 
